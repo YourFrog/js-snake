@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="/js-snake/assets/css/style.css?v=3c3357052025aa6e70ec0ffa2005b9ef6fc83fb2" media="screen">
+    <link rel="stylesheet" href="/js-snake/assets/css/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="/js-snake/assets/css/non-screen.css" media="handheld, only screen and (max-device-width:640px)">
+
+    <script src="/js-snake/assets/js/modernizr.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/js-snake/src/snake.js"></script>
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>JS Snake w godzinę</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Welcome to GitHub Pages" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Projekt edukacyjny jak stworzyć grę snake bez potrzeby użycia tablicy" />
+<meta property="og:description" content="Projekt edukacyjny jak stworzyć grę snake bez potrzeby użycia tablicy" />
+<link rel="canonical" href="https://yourfrog.github.io/js-snake/" />
+<meta property="og:url" content="https://yourfrog.github.io/js-snake/" />
+<meta property="og:site_name" content="js-snake" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"Welcome to GitHub Pages","url":"https://yourfrog.github.io/js-snake/","description":"Projekt edukacyjny jak stworzyć grę snake bez potrzeby użycia tablicy","name":"js-snake","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+    <style>
+        #game {
+            width: 496px;
+            height: 288px;
+            border: 3px solid orange;
+        }
+    </style>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/YourFrog/js-snake">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>js-snake</h1>
+            <h2>Projekt edukacyjny jak stworzyć grę snake bez potrzeby użycia tablicy</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      
+        <div id="no-downloads">
+          <span class="inner">
+          </span>
+        </div>
+      
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <p>Punkty: <span id="points">0</span></p>
+        <canvas id="game"></canvas>
+    
+        <h2>Sterowanie</h2>
+        <p>Wąż porusza się automatycznie, a my możemy sterować jedynie jego kierunkiem <b>przy pomocy strzałek</b>. Punkty otrzymujemy za zbieranie <b>zielonych kwadracików</b>, a głowa węża zaznaczona jest innym kolorem od reszty ciała.</p>
+        
+        <h2>Koniec gry</h2>
+        <p>Gra kończy się gdy głowa węża uderzy w ścianę planszy bądź w siebie samego.</p>
+        
+        <h2 id="welcome-to-github-pages">Pare słów wyjaśnienia</h2>
+        <p>Zauważyłem że wiele implementacji studentów w internecie bazuje na zwykłych listach i chciałem zaprezentować własną implementacje opartą o linked list. Może to kogoś czegoś nauczy.</p>
+
+        <h2>Czas stworzenia</h2>
+        <p>Całość została zlepiona na kolanie w czasie około 1h. Dlatego przeglądając kod miejcie to na uwadzę iż moim celem nie było stworzenie idealnej implementacji przygotowanej na wszystko tylko działającej gry w którą można kliknąć wieczorem bez zbędnego kodu.</p>
+
+        <h2>Pamiętajcie że</h2>
+        <ul>
+          <li>Jeśli widzisz ten punkt to oznacza że jeszcze nie napisałem artykułu na blogu wyjaśniającego,</li>
+          <li>Kod tutaj należy traktować jako cook book,</li>
+          <li>Używajcie prosze w swoich projektach mechanizmów do budowania zależności,</li>
+          <li>Starajcie się unikać rysowania na canvasie 2D,</li>
+          <li>Podczas tworzenia gier pamiętajcie o używaniu deltaTime. Rozwiązanie oparte o setInterval jest tylko dlatego że to pokazówka,</li>
+          <li>Kod tutaj zawarty nie jest idealny i wcale taki nie ma być.</li>
+        </ul>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            
+              <p>this project by <a href="https://github.com/YourFrog">YourFrog</a> can be found on <a href="https://github.com/YourFrog/js-snake">GitHub</a></p>
+            
+            
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
