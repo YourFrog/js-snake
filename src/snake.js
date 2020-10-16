@@ -339,7 +339,6 @@ $(document).ready(() => {
                     points += 10
                 }
             } catch (e) {
-                alert('Koniec gry')
                 state = STATE_GAME_OVER
             }
 
