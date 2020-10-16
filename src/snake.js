@@ -347,5 +347,5 @@ $(document).ready(() => {
         }
 
         drawGame()
-    }, 1)
+    }, 16)
 })
